@@ -1,0 +1,24 @@
+Package: PaqueteNuevo
+Title: Paquete para analizar datos meteorologicos
+Version: 0.0.0.9000
+Authors@R:
+    c(person("Lucas", "Descalzo", email = "ldescalzo@mail.austral.edu.ar", role = c("aut", "cre")),
+      person("Gregorio", "Fernandez Perrier", email = "gregoriofernandezperrier@gmail.com", role = "aut"))
+Description: Description: Este paquete es únicamente para evaluación por parte del equipo docente y no está destinado para su uso público.  
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+URL: https://github.com/goyoioio/PaqueteNuevo, https://goyoioio.github.io/PaqueteNuevo/
+BugReports: https://github.com/goyoioio/PaqueteNuevo/issues
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+Imports:
+    cli,
+    dplyr,
+    readr,
+    utils
