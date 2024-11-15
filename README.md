@@ -1,11 +1,11 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# PaqueteNuevo
+# PaqueteMeteorologicoLimpio
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/goyoioio/PaqueteNuevo/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/goyoioio/PaqueteNuevo/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/goyoioio/PaqueteMeteorologicoLimpio/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/goyoioio/PaqueteMeteorologicoLimpio/actions/workflows/R-CMD-check.yaml)
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
@@ -15,12 +15,12 @@ meteorologicos
 
 ## Installation
 
-Pueden instalar la version de desarrollo de PaqueteNuevo desde
+Pueden instalar la version de desarrollo de PaqueteMeteorologicoLimpio desde
 [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("pak")
-pak::pak("goyoioio/PaqueteNuevo")
+pak::pak("goyoioio/PaqueteMeteorologicoLimpio")
 ```
 
 ## ejemplo
@@ -28,7 +28,7 @@ pak::pak("goyoioio/PaqueteNuevo")
 este es un ejemplo basico que muestra como resolver un problema comun:
 
 ``` r
-library(PaqueteNuevo)
+library(PaqueteMeteorologicoLimpio)
 ## basic example code
 ```
 

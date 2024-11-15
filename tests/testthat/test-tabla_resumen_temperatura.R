@@ -1,6 +1,6 @@
 # test_that("tabla_resumen_temperatura funciona correctamente", {
 #   # Cargar los datos de ejemplo
-#   data("estaciones_merged", package = "PaqueteNuevo")
+#   data("estaciones_merged", package = "PaqueteMeteorologicoLimpio")
 #
 #   # Ejecutar la función
 #   resultado <- tabla_resumen_temperatura(estaciones_merged)

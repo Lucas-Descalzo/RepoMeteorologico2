@@ -4,17 +4,25 @@
 \alias{tabla_resumen_temperatura}
 \title{Crea una Tabla Resumen de la Temperatura Abrigo}
 \usage{
-tabla_resumen_temperatura(datos)
+tabla_resumen_temperatura(datos, estaciones = NULL)
 }
 \arguments{
-\item{datos}{data.frame de las estaciones de cuya temperatura abrigo se quiere crear una tabla resumen.}
+\item{datos}{data.frame con los datos de las estaciones.}
+
+\item{estaciones}{Vector de IDs de las estaciones a analizar (opcional).}
 }
 \value{
-Devuelve una tabla resumen de la temperatura abrigo de las estaciones ingresadas.
+Devuelve una tabla resumen con el mínimo, máximo, promedio, desviación estándar,
+cantidad de observaciones y proporción de valores NA de la temperatura abrigo.
 }
 \description{
-La función \code{tabla_resumen_temperatura} crea una tabla de resumen de la temperatura_abrigo_150cm para una o más estaciones.
+La función \code{tabla_resumen_temperatura} crea una tabla de resumen de la variable
+\code{temperatura_abrigo_150cm} para una o más estaciones.
 }
 \examples{
 # Cargar los datos de ejemplo desde el paquete
+data("estaciones_merged")
+
+# Llamar a la función usando los datos cargados
+tabla_resumen_temperatura(estaciones_merged)
 }

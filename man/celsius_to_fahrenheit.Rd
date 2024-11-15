@@ -4,10 +4,10 @@
 \alias{celsius_to_fahrenheit}
 \title{Convierte Temperatura de Celsius a Fahrenheit}
 \usage{
-celsius_to_fahrenheit(temp_centigrados)
+celsius_to_fahrenheit(temperatura_celsius)
 }
 \arguments{
-\item{temp_centigrados}{Una temperatura en grado Celsius.}
+\item{temperatura_celsius}{Una temperatura en grado Celsius.}
 }
 \value{
 La temperatura ingresada pero en grados Fahrenheit.

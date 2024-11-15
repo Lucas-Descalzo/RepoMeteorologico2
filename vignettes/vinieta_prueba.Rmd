@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup}
-library(PaqueteNuevo)
+library(PaqueteMeteorologicoLimpio)
 ```
 
 esta es una vineta de prueba podemos mostrar como usar las funciones del paquete. 
